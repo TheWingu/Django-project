@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "chart.js": "^4.4.3",
+    "tailwindcss": "^3.4.10"
+  },
+  "scripts": {
+  "build:css": "postcss vital_signs/static/css/tailwind.css -o vital_signs/static/css/indexstylesheet.css"
+},
+
+  "devDependencies": {
+    "postcss-cli": "^11.0.0"
+  }
+}
